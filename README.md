@@ -289,4 +289,11 @@ kubectl get nodes
 ```
 ![`Alt text`](Markdown/get-nodes.png)
 
+6. Let's change the worker node lable
+```bash
+kubectl label node k8s-worker1.mobin.local node-role.kubernetes.io/worker=worker
+```
+![Alt text](Markdown/node-label.png)
+
 Now all nodes up and running for deployment
+
